@@ -1,0 +1,6 @@
+framework module Pods_Friends_Chat {
+  umbrella header "Pods-Friends-Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}
