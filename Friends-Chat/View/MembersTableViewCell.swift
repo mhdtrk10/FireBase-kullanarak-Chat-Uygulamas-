@@ -13,7 +13,7 @@ class MembersTableViewCell: UITableViewCell {
     
     @IBOutlet weak var nameLabel: UILabel!
     
-    
+    var buttonAction : (() -> ())?
     
     //MARK: -FUNCTIONS
     
@@ -21,7 +21,17 @@ class MembersTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
+    
+    
+    @IBAction func didClicked(_ sender: UIButton) {
+        
+        buttonAction?()
+       
+        
+    }
+    
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

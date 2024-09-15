@@ -11,6 +11,8 @@ import Foundation
 struct Message {
     
     let sender: String
+    let recipient: String
     let body: String
+    
     
 }

@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAcY7dKIA6-nmeN39V_J7ksWKM8ZU2gtSM</string>
+	<string>AIzaSyB35B3MAXXGi8Tz23wRSzRKo43-21uJIeo</string>
 	<key>GCM_SENDER_ID</key>
-	<string>971515442076</string>
+	<string>501249338731</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>mehdioturak.Friends-Chat</string>
 	<key>PROJECT_ID</key>
-	<string>friends-chat-fc47e</string>
+	<string>friends-chat-c6cd3</string>
 	<key>STORAGE_BUCKET</key>
-	<string>friends-chat-fc47e.appspot.com</string>
+	<string>friends-chat-c6cd3.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:971515442076:ios:bda2c6ea748ae39e5a8e59</string>
+	<string>1:501249338731:ios:69fa2f7cd39aae2cc4302e</string>
 </dict>
 </plist>

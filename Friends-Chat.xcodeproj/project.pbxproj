@@ -25,13 +25,13 @@
 		D0AFA8752C604AA600A4E8FA /* Friends_Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA8732C604AA600A4E8FA /* Friends_Chat.xcdatamodeld */; };
 		D0AFA8772C604AA700A4E8FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0AFA8762C604AA700A4E8FA /* Assets.xcassets */; };
 		D0AFA87A2C604AA700A4E8FA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D0AFA8792C604AA700A4E8FA /* Base */; };
-		D0AFA8822C604C9700A4E8FA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0AFA8812C604C9700A4E8FA /* GoogleService-Info.plist */; };
 		D0AFA8852C63E86F00A4E8FA /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA8842C63E86F00A4E8FA /* HomePageViewController.swift */; };
 		D0AFA8872C63E9A400A4E8FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA8862C63E9A400A4E8FA /* Constants.swift */; };
 		D0AFA88A2C6430C800A4E8FA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA8892C6430C800A4E8FA /* SignUpViewController.swift */; };
 		D0AFA88C2C6430F200A4E8FA /* ChoosePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA88B2C6430F200A4E8FA /* ChoosePageViewController.swift */; };
 		D0AFA88E2C6430FE00A4E8FA /* MembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA88D2C6430FE00A4E8FA /* MembersViewController.swift */; };
 		D0AFA8902C64311D00A4E8FA /* MembersProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0AFA88F2C64311D00A4E8FA /* MembersProfileViewController.swift */; };
+		D0C6F9872C97925B00C33ED9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0C6F9862C97925B00C33ED9 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,13 +57,13 @@
 		D0AFA8762C604AA700A4E8FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0AFA8792C604AA700A4E8FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0AFA87B2C604AA700A4E8FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D0AFA8812C604C9700A4E8FA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0AFA8842C63E86F00A4E8FA /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		D0AFA8862C63E9A400A4E8FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D0AFA8892C6430C800A4E8FA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D0AFA88B2C6430F200A4E8FA /* ChoosePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePageViewController.swift; sourceTree = "<group>"; };
 		D0AFA88D2C6430FE00A4E8FA /* MembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersViewController.swift; sourceTree = "<group>"; };
 		D0AFA88F2C64311D00A4E8FA /* MembersProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersProfileViewController.swift; sourceTree = "<group>"; };
+		D0C6F9862C97925B00C33ED9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +98,7 @@
 		D042285D2C726FF800B56E5D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D04228682C89217300B56E5D /* MembersTableViewCell.swift */,
 				D0AFA8702C604AA600A4E8FA /* Main.storyboard */,
 				D042286C2C8D204D00B56E5D /* MessageCell.xib */,
 				D04228702C8D29DA00B56E5D /* MessageCell.swift */,
@@ -137,7 +138,6 @@
 		D0AFA8692C604AA600A4E8FA /* Friends-Chat */ = {
 			isa = PBXGroup;
 			children = (
-				D04228682C89217300B56E5D /* MembersTableViewCell.swift */,
 				D0AFA86A2C604AA600A4E8FA /* AppDelegate.swift */,
 				D0AFA8862C63E9A400A4E8FA /* Constants.swift */,
 				D0AFA86C2C604AA600A4E8FA /* SceneDelegate.swift */,
@@ -145,10 +145,10 @@
 				D042285D2C726FF800B56E5D /* View */,
 				D0AFA8882C64308600A4E8FA /* Controllers */,
 				D0AFA8762C604AA700A4E8FA /* Assets.xcassets */,
+				D0C6F9862C97925B00C33ED9 /* GoogleService-Info.plist */,
 				D0AFA8782C604AA700A4E8FA /* LaunchScreen.storyboard */,
 				D0AFA87B2C604AA700A4E8FA /* Info.plist */,
 				D0AFA8732C604AA600A4E8FA /* Friends_Chat.xcdatamodeld */,
-				D0AFA8812C604C9700A4E8FA /* GoogleService-Info.plist */,
 			);
 			path = "Friends-Chat";
 			sourceTree = "<group>";
@@ -241,8 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0AFA8772C604AA700A4E8FA /* Assets.xcassets in Resources */,
+				D0C6F9872C97925B00C33ED9 /* GoogleService-Info.plist in Resources */,
 				D04228652C7E524700B56E5D /* gökyüzünütutamam.mp3 in Resources */,
-				D0AFA8822C604C9700A4E8FA /* GoogleService-Info.plist in Resources */,
 				D0AFA87A2C604AA700A4E8FA /* Base in Resources */,
 				D04228622C7E4E5400B56E5D /* Cistak.mp3 in Resources */,
 				D042286D2C8D204D00B56E5D /* MessageCell.xib in Resources */,

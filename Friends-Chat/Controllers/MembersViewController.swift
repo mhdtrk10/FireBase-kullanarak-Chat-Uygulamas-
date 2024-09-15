@@ -22,6 +22,7 @@ class MembersViewController: UIViewController {
     
     @IBOutlet weak var tableVİew: UITableView!
     
+
     
    
     
@@ -41,11 +42,6 @@ class MembersViewController: UIViewController {
      
     
     
-    
-    @IBAction func messagePagePressed(_ sender: UIButton) {
-        
-    }
-    
 }
 
 extension MembersViewController: UITableViewDelegate {
@@ -63,9 +59,21 @@ extension MembersViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! MembersTableViewCell
         
+        let vC = self.storyboard?.instantiateViewController(identifier: "ChatInfo") as! ChatViewController
 
         cell.nameLabel.text = names[indexPath.row]
+       
         
+        
+        cell.buttonAction = { [unowned self] in
+            let selectedIndexPath = indexPath.row
+            
+            
+            
+            vC.buttonName = names[selectedIndexPath]
+            
+            self.navigationController?.pushViewController(vC, animated: true)
+                }
         
         
         return cell
